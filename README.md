@@ -14,3 +14,5 @@ User-friendly command line interface
 Error handling for incorrect city names or connection issues
 
 Easily extendable for trend analysis or scheduled alerts
+
+
