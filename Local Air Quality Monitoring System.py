@@ -4,20 +4,20 @@
 # Function to classify air quality based on AQI value
 def classify_aqi(aqi):
     if aqi <= 50:
-        return "Good – Air quality is satisfactory."
+        return "Good – Air quality is pretty decent."
     elif aqi <= 100:
-        return "Moderate – Acceptable but some pollutants may affect sensitive people."
+        return "Moderate – Acceptable but some  sensitive people might get affected by the pollutants."
     elif aqi <= 200:
         return "Poor – Breathing discomfort for people with health issues."
     elif aqi <= 300:
-        return "Very Poor – Breathing discomfort for everyone."
+        return "Very Poor –  Everyone faces breathing problems when outside."
     else:
-        return "Severe – Can cause respiratory effects even on healthy people."
+        return "Severe –  Even healthy people face respiratory issues and lung diseases."
 
 # Function to give suggestions
 def suggestions(aqi):
     if aqi <= 100:
-        return "No major precautions needed."
+        return "No major precautions needed as such."
     elif aqi <= 200:
         return "Wear a mask if outdoors."
     elif aqi <= 300:
@@ -50,3 +50,4 @@ with open("air_quality_report.txt", "w") as file:
 
 
 print("\nReport saved as 'air_quality_report.txt'")
+
