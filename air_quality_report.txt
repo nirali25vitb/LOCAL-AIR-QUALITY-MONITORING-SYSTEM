@@ -1,0 +1,5 @@
+Air Quality Report
+City: Indore
+AQI : 200
+Status: Poor – Breathing discomfort for people with health issues.
+Health Advice: Wear a mask if outdoors.
