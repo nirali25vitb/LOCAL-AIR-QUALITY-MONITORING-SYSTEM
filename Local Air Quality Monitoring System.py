@@ -21,9 +21,9 @@ def suggestions(aqi):
     elif aqi <= 200:
         return "Wear a mask if outdoors."
     elif aqi <= 300:
-        return "Avoid outdoor activities and keep doors/windows closed."
+        return "Avoid outdoor activities and keep doors and windows closed."
     else:
-        return "Stay indoors, use air purifiers if available."
+        return "Prefer to stay indoors and use air purifiers if available."
 
 # Main program loop
 print("------ Local Air Quality Monitoring System ------")
@@ -47,5 +47,6 @@ with open("air_quality_report.txt", "w") as file:
     file.write(f"AQI : {aqi}\n")
     file.write(f"Status: {status}\n")
     file.write(f"Health Advice: {advice}\n")
+
 
 print("\nReport saved as 'air_quality_report.txt'")
